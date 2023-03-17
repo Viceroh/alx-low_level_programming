@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - return a rand num
+ * main - return a random number
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -14,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n < 0)
-		 printf("%d is negative\n", n);
+		printf("%d is posiitive\n", n);
+	elseif(n < 0)
+		printf("%d is negative\n", n);
 	else
-		 printf("%d is zero\n", n);
-	return (0)
+		printf("%d is zero\n", n);
+	return (0);
 }
